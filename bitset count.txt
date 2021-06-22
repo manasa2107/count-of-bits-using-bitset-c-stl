@@ -1,0 +1,9 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{  long long int n;
+      cin>>n;
+   bitset<24> b1(n);
+    int result1 = b1.count();
+    cout<< result1;
+}
